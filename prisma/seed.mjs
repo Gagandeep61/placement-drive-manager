@@ -14,7 +14,7 @@ const drives = [
     driveDate: new Date("2026-11-05T10:00:00.000Z"),
     eligibleBranch: "CSE, IT, ECE",
     minCGPA: 6.0,
-    jobType: "Full-time",
+    jobType: "Full-Time",
   },
   {
     companyName: "Infosys",
@@ -22,7 +22,7 @@ const drives = [
     driveDate: new Date("2026-11-12T09:30:00.000Z"),
     eligibleBranch: "CSE, IT",
     minCGPA: 6.5,
-    jobType: "Full-time",
+    jobType: "Full-Time",
   },
   {
     companyName: "Wipro",
@@ -38,7 +38,7 @@ const drives = [
     driveDate: new Date("2026-12-03T09:00:00.000Z"),
     eligibleBranch: "CSE",
     minCGPA: 7.5,
-    jobType: "Internship + Full-time",
+    jobType: "Internship + Full-Time",
   },
   {
     companyName: "Larsen & Toubro",
@@ -46,7 +46,7 @@ const drives = [
     driveDate: new Date("2026-12-10T10:00:00.000Z"),
     eligibleBranch: "ME, CE, EE",
     minCGPA: 6.5,
-    jobType: "Full-time",
+    jobType: "Full-Time",
   },
   {
     companyName: "HCL Technologies",
@@ -88,4 +88,3 @@ main()
     // close connection, else terminal hang
     await prisma.$disconnect();
   });
-  
